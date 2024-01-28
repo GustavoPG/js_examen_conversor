@@ -145,5 +145,5 @@ document.getElementById('txtAmount').addEventListener('keypress', function (even
 document.querySelectorAll(".number").forEach(el => el.addEventListener("keyup", numberFormat));
 document.querySelectorAll(".number").forEach(el => el.addEventListener("change", numberFormat));
 btnSend.addEventListener('click', validateInfo);
-
+txtAmount.addEventListener('click', txtAmount.select);
 renderSelect();
