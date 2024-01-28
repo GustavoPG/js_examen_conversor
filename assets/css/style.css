@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(117deg, rgba(2,0,36,1) 0%, rgba(20,20,70,1) 0%, rgba(7,154,184,1) 96%); */
+    background: rgb(214,217,230);
+background: linear-gradient(0deg, rgba(214,217,230,1) 2%, rgba(237,241,251,1) 98%);
+}
+
+#txtAmount{
+    width: 20rem;
+    margin: auto;
+}
+
+#selectCoin{
+    width: 20rem;
+    margin: auto;
+}
+
+#btnSend{
+    width: 20rem;
+    margin: auto;
+}
+
+.graph{
+    width:100%;
+    height: 500px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+canvas {
+    top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   padding: 1rem;
+   }
